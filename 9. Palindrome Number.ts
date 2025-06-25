@@ -7,5 +7,9 @@ function isPalindrome(x: number): boolean {
     return x === +x.toString().split("").reverse().join("");
 }
 
+// function isPalindrome(x: number): boolean {
+//     return x<0 ? false : x === +x.toString().split("").reverse().join("");
+// };
+
 console.log(isPalindrome(121)); // true
 console.log(isPalindrome(-121)); // true
